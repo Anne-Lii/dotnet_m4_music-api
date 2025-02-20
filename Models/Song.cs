@@ -16,7 +16,7 @@ namespace MusicApi.Models {
         public int Length { get; set; }
 
         [Required]
-        public int Category { get; set; }
+        public string? Category { get; set; }
      
         
     }
