@@ -9,6 +9,6 @@ namespace MusicApi.Data {
 
         //creating tables in database
         public DbSet<Song> Songs {get; set;}
-        public DbSet<Category> Categories {get; set;}
+       
     }
 }

@@ -14,10 +14,10 @@ namespace MusicApi.Models {
 
         [Required]
         public int Length { get; set; }
+
+        [Required]
+        public int Category { get; set; }
+     
         
-        
-        
-        public int CategoryId { get; set; } //FK
-        public Category? Category { get; set; }
     }
 }
