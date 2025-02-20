@@ -6,7 +6,7 @@ namespace MusicApi.Models {
         //Properties
         public int CategoryId { get; set; }
 
-        [Required]
+        [Required(ErrorMessage ="Ange en titel på kategorin")]
         public string? Title { get; set; }
        
         // Navigation property, a category could have many songs
